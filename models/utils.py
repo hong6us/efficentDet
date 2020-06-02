@@ -268,8 +268,7 @@ def efficientnet(width_coefficient=None, depth_coefficient=None, dropout_rate=0.
 #         'r1_k3_s22_e6_i192_o320_se0.25',
 #     ]
     blocks_args = [
-        'r1_k3_s11_e1_i32_o16_se0.25', 'r2_k3_s22_e6_i16_o24_se0.25',
-        'r2_k5_s22_e6_i24_o40_se0.25',       
+        'r1_k3_s11_e1_i32_o16_se0.25',    
     ]
     
     blocks_args = BlockDecoder.decode(blocks_args)
