@@ -94,6 +94,7 @@ iteration = 1
 
 
 def train(train_loader, model, scheduler, optimizer, epoch, args):
+    print(model)
     global iteration
     print("{} epoch: \t start training....".format(epoch))
     start = time.time()
