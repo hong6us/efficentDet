@@ -1,5 +1,5 @@
 EFFICIENTDET = {
-    'efficientdet-d0': {'input_size': 256,
+    'efficientdet-d0': {'input_size': 20,
                         'backbone': 'B0',
                         'W_bifpn': 16,
                         'D_bifpn': 2,
