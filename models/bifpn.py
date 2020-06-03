@@ -139,6 +139,7 @@ class BiFPNModule(nn.Module):
                  activation=None,
                  eps=0.0001):
         super(BiFPNModule, self).__init__()
+        print("BiFPNModule", levels, channels)
         self.activation = activation
         self.eps = eps
         self.levels = levels
